@@ -4914,7 +4914,7 @@ var op = _dereq_('./op');
 var NULL_CHARACTER = String.fromCharCode(0);  // Placeholder char for embed in diff()
 
 
-var Delta = function (ops) {
+Delta = function (ops) {
   // Assume we are given a well formed ops
   if (is.array(ops)) {
     this.ops = ops;
